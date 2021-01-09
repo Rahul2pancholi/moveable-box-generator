@@ -1,0 +1,32 @@
+.box-container {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    height: 500px;
+    z-index: 1;
+   
+}
+
+.button{
+border-radius:5px;
+background-color:darkslateblue ;
+padding: 10px;
+flex: 1;
+display: flex;
+margin: 9px 10px 4px 9px;
+justify-content: center;
+color: white;
+
+} 
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    box-shadow : 0 0 15px rgb(158, 158, 158);
+    margin: 50px;  
+}

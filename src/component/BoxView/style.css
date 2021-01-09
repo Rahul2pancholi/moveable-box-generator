@@ -1,0 +1,12 @@
+.box-view { 
+    display: relative;
+    /* background-color : red; */
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+
+.selected {
+    border: 1px solid black;
+}
+  

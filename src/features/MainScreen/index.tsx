@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { sortAndDeduplicateDiagnostics } from 'typescript';
 import BoxView from '../../component/BoxView';
 import ButtonItemView from '../../component/ButtonItemView'
 import { getUniqID } from '../../utilities/utils';
@@ -59,8 +58,6 @@ class MainScreen extends Component<any, any> {
     _handelDeleteEvent = (e: any) => {
         const { selectedItem, keyboardEvent } = this.state;
         let { boxArray } = this.state;
-
-        // console.log("_handelDeleteEvent", e.target.getBoundingClientRect())
         if (!keyboardEvent) {
             return;
         }
